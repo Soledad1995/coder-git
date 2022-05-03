@@ -19,7 +19,7 @@ body{
      min-height: 100vh;
      margin: 0px auto;
 }
-.main{
+.contenedor{
     display: grid;
     grid-template-areas:
     "header"
@@ -37,7 +37,7 @@ ul{
     padding: 0px;
   
 }
-.menu li a{
+nav li a{
    display: flex;
    flex-direction: row;
    justify-content: space-between;
@@ -157,7 +157,7 @@ article{
     position: relative;
     box-sizing: border-box;
 }
-
+/*
     &:hover{
         background: #000;
         color: #fff;
@@ -175,7 +175,7 @@ article{
     }
 
 a, a:hover{
-    transition: all 0.3s ease;}
+    transition: all 0.3s ease;}*/
 
 
 
@@ -226,7 +226,7 @@ a, a:hover{
 @media only screen and (min-width:768px) {
    
    
-.main{
+.contenedor{
      grid-template-areas:
      "header"
      "nav"
@@ -328,7 +328,7 @@ article{
     box-sizing: border-box;
 }
 
-    &:hover{
+   /* &:hover{
         background: #000;
         color: #fff;
         }
@@ -345,7 +345,7 @@ article{
     }
 
 a, a:hover{
-    transition: all 0.3s ease;}
+    transition: all 0.3s ease;}*/
 
 
     .box3{
