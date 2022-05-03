@@ -28,7 +28,31 @@ body{
     "footer";
 } 
 
-/*estilo de menu de nav*/
+.navbar{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #fff;
+    padding: 15px;
+}
+.navbar a{
+    text-decoration: none;
+    color: inherit;
+}
+.logo{
+    margin-right: 50px;
+}
+.list{
+    list-style: none;
+    display: flex;
+    gap: 25px;
+}
+#toggler,
+.navbar label{
+    display: none;
+}
+/*estilo de menu de nav
 ul{
     list-style-type: none;
     background-color: bisque;
@@ -56,7 +80,7 @@ li{
 .logo{
     width: 90 px;
     height: 90px;
-}
+}*/
 
 /*estilo de header*/
 header{
@@ -223,9 +247,26 @@ a, a:hover{
 
 /*media queries*/
 
-@media only screen and (min-width:768px) {
+@media only screen and (max-width: 600px) {
    
-   
+.menu{
+    width: 100%;
+    max-height: 0;
+    overflow: hidden;
+}
+.list{
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+.navbar label{
+    display: inline-flex;
+    align-items: center;
+    cursor: pointer;
+}
+#toggler:checked ~ .menu{
+    max-height: 100%;
+}
 .contenedor{
      grid-template-areas:
      "header"
@@ -233,7 +274,7 @@ a, a:hover{
      "main" 
      "footer";
  } 
-   
+   /*
 .header{
        text-align: left;
        display: flex;
