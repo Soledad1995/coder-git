@@ -1,7 +1,7 @@
 
 *{
     margin: 0%;
-    padding: 0px;
+    padding: 0%;
        
 }
 html{
@@ -28,32 +28,7 @@ body{
     "main" 
     "footer";
 } 
-/*
-.navbar{
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: space-between;
-    background-color: #fff;
-    padding: 15px;
-}
-.navbar a{
-    text-decoration: none;
-    color: inherit;
-}
-.logo{
-    margin-right: 50px;
-}
-.list{
-    list-style: none;
-    display: flex;
-    gap: 25px;
-}
-#toggler,
-.navbar label{
-    display: none;
-}
-*/
+
 
 /*estilo de menu de nav */
 ul{
@@ -192,25 +167,6 @@ article{
     position: relative;
     box-sizing: border-box;
 }
-/*
-    &:hover{
-        background: #000;
-        color: #fff;
-        }
-        &::after{
-            right: 10px;
-        }
-
-    &::after{
-        content: ">";
-        font-family:'Roboto Condensed', sans-serif; ;
-        position: absolute;
-        right: 15px;
-        transition: right 1s ease;
-    }
-
-a, a:hover{
-    transition: all 0.3s ease;}*/
 
 
 
@@ -260,25 +216,7 @@ a, a:hover{
 /*media queries*/
 
 @media only screen and (min-width: 768px) {
-  /* 
-.menu{
-    width: 100%;
-    max-height: 0;
-    overflow: hidden;
-}
-.list{
-    flex-direction: column;
-    align-items: center;
-    padding: 20px;
-}
-.navbar label{
-    display: inline-flex;
-    align-items: center;
-    cursor: pointer;
-}
-#toggler:checked ~ .menu{
-    max-height: 100%;
-}*/
+  
 .contenedor{
      grid-template-areas:
      "header"
@@ -381,24 +319,7 @@ article{
     box-sizing: border-box;
 }
 
-   /* &:hover{
-        background: #000;
-        color: #fff;
-        }
-        &::after{
-            right: 10px;
-        }
-
-    &::after{
-        content: ">";
-        font-family: "Jua";
-        position: absolute;
-        right: 15px;
-        transition: right 1s ease;
-    }
-
-a, a:hover{
-    transition: all 0.3s ease;}*/
+   
 
 
     .box3{
