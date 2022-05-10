@@ -30,7 +30,7 @@ body{
 } 
 
 
-/*estilo de menu de nav */
+/*estilo de menu de nav 
 ul{
     list-style-type: none;
     background: rgb(238,174,202);
@@ -186,7 +186,7 @@ article{
 
 
 
-/*comienzo del footer*/
+/*comienzo del footer
 
 .box3{
     background: rgb(238,174,202);
@@ -240,7 +240,7 @@ article{
      "main" 
      "footer";
  } 
-
+/*
 .header{
        text-align: left;
        display: flex;
@@ -337,7 +337,7 @@ article{
 
    
 
-
+/*
     .box3{
         
         background-size: cover;
@@ -360,7 +360,7 @@ article{
         align-content: center;
        
     
-    }
+    }*/
     .content4{
         display: inline;
        
